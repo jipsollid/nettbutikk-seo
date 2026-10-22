@@ -76,7 +76,9 @@ som regel ligg: fakta som finst for eit menneske, men ikkje for ein crawler.
 - **Fiksane og fellene:** `references/shopify-fixes.md` – korleis kvart grep faktisk blir gjort på
   Shopify, og dei fellene som kostar ein heil økt om du ikkje veit om dei.
 - **AI-synlegheit:** `references/ai-visibility.md` – dei tre kanalane, kva som verkar, og kva
-  AI-SEO-bransjen sel som ikkje gjer det.
+  AI-SEO-bransjen sel som ikkje gjer det. Same fil har **den fjerde kanalen**: om ein modell vil
+  *tilrå* butikken. Det er eit tillitsspørsmål, ikkje eit SEO-spørsmål, og det blir avgjort
+  utanfor domenet – ta det opp tidleg, for ingen av grepa i denne skillen flyttar det.
 
 ## Vanlege feil
 
@@ -89,3 +91,6 @@ som regel ligg: fakta som finst for eit menneske, men ikkje for ein crawler.
 | Måler fart ved å gjette | `content-length` manglar på komprimerte svar. Be om ein PageSpeed-køyring i staden |
 | Byter variantnamn for søkjeord | Variantnamn heng i feeden, ordrehistorikken og leverandørkoplinga |
 | Skriv til det publiserte temaet | Dupliser alltid, og sjekk MAIN-rolla på nytt rett før du skriv |
+| Lover at SEO-arbeid vil få AI-en til å tilrå butikken | Ho svarar på uavhengige kjelder, ikkje på di eiga side. Sei det før arbeidet, ikkje etter |
+| Publiserer eigaren sin adresse for å styrke tilliten | Mange butikkar er registrerte på ein privatadresse. Spør først |
+| Hentar `?preview_theme_id=` med curl utan cookie-jar | Du får det **live** temaet, stille, med status 200. Bruk `-c`/`-b` |
